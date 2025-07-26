@@ -40,47 +40,6 @@ npm install
 npm start
 ```
 
-## Building for Production
-
-### Prerequisites for App Store Deployment
-1. Install EAS CLI: `npm install -g @expo/eas-cli`
-2. Create an Expo account at https://expo.dev
-3. Login to EAS: `eas login`
-
-### iOS App Store
-```bash
-# Configure the project
-eas build:configure
-
-# Build for iOS
-npm run build:ios
-
-# Submit to App Store
-npm run submit:ios
-```
-
-### Google Play Store
-```bash
-# Build for Android
-npm run build:android
-
-# Submit to Play Store
-npm run submit:android
-```
-
-## App Store Requirements
-
-### iOS App Store
-- Apple Developer Account ($99/year)
-- App Store Connect app created
-- Privacy policy (included in PRIVACY_POLICY.md)
-- App icons and screenshots
-
-### Google Play Store
-- Google Play Console account ($25 one-time fee)
-- Privacy policy (included in PRIVACY_POLICY.md)
-- App icons and screenshots
-
 ## Privacy
 
 This app prioritizes user privacy:
